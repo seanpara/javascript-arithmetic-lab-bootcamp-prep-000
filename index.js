@@ -5,5 +5,5 @@ function divide(a, b) { return a / b }
 var number = n 
 function inc(number) {number++ ; return number}
 function dec(number) {number-- ; return number}
-function makeInt(n) {parseInt(n , 10) ; return n}
-function preserveDecimal(n) {parseFloat("n") ; return n }
+function makeInt(n) {return parseInt(n, 10)}
+function preserveDecimal(n) {return parseFloat(n)}
